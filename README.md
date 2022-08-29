@@ -40,4 +40,7 @@ Besides, the taxation can help us to deal with spider traps and dead ends. There
 
 9) Sorted the latest pagerank dictionary by descending order and create a file to hold page rank score for all nodes and top10
 
+# Result
+
+![image](https://user-images.githubusercontent.com/57484350/187126979-7b3fa206-2850-4516-a1c7-3cc27dfe7dc1.png)
 
