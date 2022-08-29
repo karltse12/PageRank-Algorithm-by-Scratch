@@ -32,12 +32,19 @@ I used Python to do the implementation of PageRank Algorithm. Below are the proc
 
 ![image](https://user-images.githubusercontent.com/57484350/187126664-db646861-2b6e-4b38-b793-a64705f42eb7.png)
 
-For the pagerank algorithm, because of the huge size of dataset, it is impossible to construct a transition matrix. Therefore, I used above formula to update the pargerank of each node. Therefore, I constructed dictionaries to store the parent’s list and number of parent’s outlinks, in order to look up the parent’s pagerank and parent’s outlinks.
+    For the pagerank algorithm, because of the huge size of dataset, it is impossible to construct a transition matrix. Therefore, I used above formula to update the       pargerank of each node. Therefore, I constructed dictionaries to store the parent’s list and number of parent’s outlinks, in order to look up the parent’s pagerank     and parent’s outlinks.
 
-Besides, the taxation can help us to deal with spider traps and dead ends. Therefore, the parameter (lambda in above formula) is used to multiply the summation and also add (1-lambda)/number of nodes to update the pagerank in each iteration.
+    Besides, the taxation can help us to deal with spider traps and dead ends. Therefore, the parameter (lambda in above formula) is used to multiply the summation and     also add (1-lambda)/number of nodes to update the pagerank in each iteration.
 
 8) After that, I used normalize all the pagerank score to make the total sum of pagerank score equals 1.
 
 9) Sorted the latest pagerank dictionary by descending order and create a file to hold page rank score for all nodes and top10
+
+Computation times of the algorithms: around 10 minutes
+
+# Results
+
+![image](https://user-images.githubusercontent.com/57484350/187126903-be449192-a504-4aa4-93b3-de56a9679922.png)
+
 
 
